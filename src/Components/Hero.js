@@ -5,7 +5,6 @@ import Apptheme from '../colors'
 const Hero=()=>{
     const theme=useContext (ThemeContext)[0]
     const currentTheme=Apptheme[theme]
-
     return (
         <div
         style={{
